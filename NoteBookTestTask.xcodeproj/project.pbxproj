@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		3F2B35B3286C4135000D3711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35B2286C4135000D3711 /* AppDelegate.swift */; };
 		3F2B35B5286C4135000D3711 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35B4286C4135000D3711 /* SceneDelegate.swift */; };
-		3F2B35B7286C4135000D3711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35B6286C4135000D3711 /* ViewController.swift */; };
 		3F2B35BA286C4135000D3711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B35B8286C4135000D3711 /* Main.storyboard */; };
 		3F2B35BC286C4136000D3711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B35BB286C4136000D3711 /* Assets.xcassets */; };
 		3F2B35BF286C4136000D3711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B35BD286C4136000D3711 /* LaunchScreen.storyboard */; };
+		3F2B35CD286C43BF000D3711 /* NoteBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35CC286C43BF000D3711 /* NoteBookTableViewController.swift */; };
+		3F2B35CF286C4E78000D3711 /* KeyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35CE286C4E78000D3711 /* KeyApi.swift */; };
+		3F2B35D3286C54C4000D3711 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35D2286C54C4000D3711 /* DetailViewController.swift */; };
+		3F2B35D5286C7B83000D3711 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35D4286C7B83000D3711 /* UserData.swift */; };
+		3F2B35D7286C7BE6000D3711 /* NetworkUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35D6286C7BE6000D3711 /* NetworkUserManager.swift */; };
+		3F2B35D9286C81B0000D3711 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35D8286C81B0000D3711 /* NetworkDataFetch.swift */; };
+		3F2B35DB286C8563000D3711 /* UserDataRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35DA286C8563000D3711 /* UserDataRealm.swift */; };
+		3F2B35DE286C85AB000D3711 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2B35DD286C85AB000D3711 /* Realm */; };
+		3F2B35E0286C85AB000D3711 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2B35DF286C85AB000D3711 /* RealmSwift */; };
+		3F2B35E3286C85D6000D3711 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E2286C85D6000D3711 /* RealmManager.swift */; };
+		3F2B35E5286CE540000D3711 /* NetworkUsersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E4286CE540000D3711 /* NetworkUsersManager.swift */; };
+		3F2B35E7286CE65B000D3711 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E6286CE65B000D3711 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F2B35AF286C4135000D3711 /* NoteBookTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBookTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2B35B2286C4135000D3711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F2B35B4286C4135000D3711 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F2B35B6286C4135000D3711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F2B35B9286C4135000D3711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F2B35BB286C4136000D3711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2B35BE286C4136000D3711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2B35C0286C4136000D3711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2B35CC286C43BF000D3711 /* NoteBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookTableViewController.swift; sourceTree = "<group>"; };
+		3F2B35CE286C4E78000D3711 /* KeyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyApi.swift; sourceTree = "<group>"; };
+		3F2B35D2286C54C4000D3711 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3F2B35D4286C7B83000D3711 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3F2B35D6286C7BE6000D3711 /* NetworkUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUserManager.swift; sourceTree = "<group>"; };
+		3F2B35D8286C81B0000D3711 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		3F2B35DA286C8563000D3711 /* UserDataRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRealm.swift; sourceTree = "<group>"; };
+		3F2B35E2286C85D6000D3711 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		3F2B35E4286CE540000D3711 /* NetworkUsersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUsersManager.swift; sourceTree = "<group>"; };
+		3F2B35E6286CE65B000D3711 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2B35E0286C85AB000D3711 /* RealmSwift in Frameworks */,
+				3F2B35DE286C85AB000D3711 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 				3F2B35C8286C41A2000D3711 /* Model */,
 				3F2B35C7286C419B000D3711 /* View */,
 				3F2B35C6286C4186000D3711 /* Controller */,
+				3F2B35E1286C85C2000D3711 /* Services */,
 				3F2B35CA286C41BD000D3711 /* Resourses */,
 			);
 			path = NoteBookTestTask;
@@ -69,7 +92,8 @@
 		3F2B35C6286C4186000D3711 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3F2B35B6286C4135000D3711 /* ViewController.swift */,
+				3F2B35CC286C43BF000D3711 /* NoteBookTableViewController.swift */,
+				3F2B35D2286C54C4000D3711 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -86,6 +110,9 @@
 		3F2B35C8286C41A2000D3711 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F2B35D4286C7B83000D3711 /* UserData.swift */,
+				3F2B35DA286C8563000D3711 /* UserDataRealm.swift */,
+				3F2B35E6286CE65B000D3711 /* Users.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +131,7 @@
 			children = (
 				3F2B35BB286C4136000D3711 /* Assets.xcassets */,
 				3F2B35C0286C4136000D3711 /* Info.plist */,
+				3F2B35CE286C4E78000D3711 /* KeyApi.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -111,8 +139,19 @@
 		3F2B35CB286C4206000D3711 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3F2B35D6286C7BE6000D3711 /* NetworkUserManager.swift */,
+				3F2B35D8286C81B0000D3711 /* NetworkDataFetch.swift */,
+				3F2B35E4286CE540000D3711 /* NetworkUsersManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		3F2B35E1286C85C2000D3711 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35E2286C85D6000D3711 /* RealmManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +170,10 @@
 			dependencies = (
 			);
 			name = NoteBookTestTask;
+			packageProductDependencies = (
+				3F2B35DD286C85AB000D3711 /* Realm */,
+				3F2B35DF286C85AB000D3711 /* RealmSwift */,
+			);
 			productName = NoteBookTestTask;
 			productReference = 3F2B35AF286C4135000D3711 /* NoteBookTestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 3F2B35A6286C4135000D3711;
+			packageReferences = (
+				3F2B35DC286C85AB000D3711 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 3F2B35B0286C4135000D3711 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -186,9 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2B35B7286C4135000D3711 /* ViewController.swift in Sources */,
+				3F2B35D5286C7B83000D3711 /* UserData.swift in Sources */,
+				3F2B35D7286C7BE6000D3711 /* NetworkUserManager.swift in Sources */,
+				3F2B35DB286C8563000D3711 /* UserDataRealm.swift in Sources */,
 				3F2B35B3286C4135000D3711 /* AppDelegate.swift in Sources */,
+				3F2B35E7286CE65B000D3711 /* Users.swift in Sources */,
+				3F2B35E5286CE540000D3711 /* NetworkUsersManager.swift in Sources */,
+				3F2B35CD286C43BF000D3711 /* NoteBookTableViewController.swift in Sources */,
+				3F2B35D3286C54C4000D3711 /* DetailViewController.swift in Sources */,
+				3F2B35CF286C4E78000D3711 /* KeyApi.swift in Sources */,
+				3F2B35E3286C85D6000D3711 /* RealmManager.swift in Sources */,
 				3F2B35B5286C4135000D3711 /* SceneDelegate.swift in Sources */,
+				3F2B35D9286C81B0000D3711 /* NetworkDataFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +463,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F2B35DC286C85AB000D3711 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F2B35DD286C85AB000D3711 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F2B35DC286C85AB000D3711 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3F2B35DF286C85AB000D3711 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F2B35DC286C85AB000D3711 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F2B35A7286C4135000D3711 /* Project object */;
 }
