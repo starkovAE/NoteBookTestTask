@@ -56,15 +56,63 @@
 		3F2B35B1286C4135000D3711 /* NoteBookTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				3F2B35B2286C4135000D3711 /* AppDelegate.swift */,
-				3F2B35B4286C4135000D3711 /* SceneDelegate.swift */,
-				3F2B35B6286C4135000D3711 /* ViewController.swift */,
-				3F2B35B8286C4135000D3711 /* Main.storyboard */,
-				3F2B35BB286C4136000D3711 /* Assets.xcassets */,
-				3F2B35BD286C4136000D3711 /* LaunchScreen.storyboard */,
-				3F2B35C0286C4136000D3711 /* Info.plist */,
+				3F2B35CB286C4206000D3711 /* Network */,
+				3F2B35C9286C41A9000D3711 /* Application  */,
+				3F2B35C8286C41A2000D3711 /* Model */,
+				3F2B35C7286C419B000D3711 /* View */,
+				3F2B35C6286C4186000D3711 /* Controller */,
+				3F2B35CA286C41BD000D3711 /* Resourses */,
 			);
 			path = NoteBookTestTask;
+			sourceTree = "<group>";
+		};
+		3F2B35C6286C4186000D3711 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35B6286C4135000D3711 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F2B35C7286C419B000D3711 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35B8286C4135000D3711 /* Main.storyboard */,
+				3F2B35BD286C4136000D3711 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F2B35C8286C41A2000D3711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F2B35C9286C41A9000D3711 /* Application  */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35B2286C4135000D3711 /* AppDelegate.swift */,
+				3F2B35B4286C4135000D3711 /* SceneDelegate.swift */,
+			);
+			path = "Application ";
+			sourceTree = "<group>";
+		};
+		3F2B35CA286C41BD000D3711 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35BB286C4136000D3711 /* Assets.xcassets */,
+				3F2B35C0286C4136000D3711 /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		3F2B35CB286C4206000D3711 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7FVMHHXDH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NoteBookTestTask/Info.plist;
+				INFOPLIST_FILE = NoteBookTestTask/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +367,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7FVMHHXDH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NoteBookTestTask/Info.plist;
+				INFOPLIST_FILE = NoteBookTestTask/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
