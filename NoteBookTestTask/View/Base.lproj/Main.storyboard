@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="90" id="N2c-yQ-sbI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="90" id="N2c-yQ-sbI" customClass="NoteBookTableViewCell" customModule="NoteBookTestTask" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N2c-yQ-sbI" id="a0f-j6-FjZ">
@@ -53,7 +53,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <connections>
-                                    <segue destination="SET-hF-Ln1" kind="show" id="JIy-f1-wbA"/>
+                                    <outlet property="nameUserLabel" destination="1Ay-6X-TsD" id="HBR-OO-je3"/>
+                                    <outlet property="thumbnailImageView" destination="8Pf-xL-p4Q" id="AlJ-h0-LqW"/>
+                                    <segue destination="SET-hF-Ln1" kind="show" identifier="showDetail" id="JIy-f1-wbA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -164,6 +166,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pM6-O5-AVu"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="E0j-hg-s7h" id="9EC-Vl-iof"/>
+                        <outlet property="emailLabel" destination="gmx-PK-MfA" id="6Jb-Su-1R6"/>
+                        <outlet property="firstNameLabel" destination="RaP-A3-HHQ" id="NXZ-FG-fNY"/>
+                        <outlet property="secondNameLabel" destination="hPC-eg-IH2" id="IK6-ul-4PI"/>
+                        <outlet property="timeZoneLabel" destination="CcQ-bd-7Oe" id="tw9-94-Qdl"/>
+                        <outlet property="userPhoto" destination="Fgk-PP-2RD" id="L4d-OY-tmv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zse-S4-NHS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

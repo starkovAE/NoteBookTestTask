@@ -23,7 +23,9 @@
 		3F2B35E0286C85AB000D3711 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2B35DF286C85AB000D3711 /* RealmSwift */; };
 		3F2B35E3286C85D6000D3711 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E2286C85D6000D3711 /* RealmManager.swift */; };
 		3F2B35E5286CE540000D3711 /* NetworkUsersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E4286CE540000D3711 /* NetworkUsersManager.swift */; };
-		3F2B35E7286CE65B000D3711 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E6286CE65B000D3711 /* Users.swift */; };
+		3F2B35E7286CE65B000D3711 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E6286CE65B000D3711 /* User.swift */; };
+		3F2B35EA286D0375000D3711 /* NoteBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B35E9286D0375000D3711 /* NoteBookTableViewCell.swift */; };
+		3FDE5E5D286DB5FD00E0BA67 /* GetUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE5E5C286DB5FD00E0BA67 /* GetUserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +45,9 @@
 		3F2B35DA286C8563000D3711 /* UserDataRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRealm.swift; sourceTree = "<group>"; };
 		3F2B35E2286C85D6000D3711 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		3F2B35E4286CE540000D3711 /* NetworkUsersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUsersManager.swift; sourceTree = "<group>"; };
-		3F2B35E6286CE65B000D3711 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		3F2B35E6286CE65B000D3711 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3F2B35E9286D0375000D3711 /* NoteBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookTableViewCell.swift; sourceTree = "<group>"; };
+		3FDE5E5C286DB5FD00E0BA67 /* GetUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		3F2B35C7286C419B000D3711 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F2B35E8286D0356000D3711 /* NoteBookCell */,
 				3F2B35B8286C4135000D3711 /* Main.storyboard */,
 				3F2B35BD286C4136000D3711 /* LaunchScreen.storyboard */,
 			);
@@ -112,7 +117,8 @@
 			children = (
 				3F2B35D4286C7B83000D3711 /* UserData.swift */,
 				3F2B35DA286C8563000D3711 /* UserDataRealm.swift */,
-				3F2B35E6286CE65B000D3711 /* Users.swift */,
+				3F2B35E6286CE65B000D3711 /* User.swift */,
+				3FDE5E5C286DB5FD00E0BA67 /* GetUserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +158,14 @@
 				3F2B35E2286C85D6000D3711 /* RealmManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		3F2B35E8286D0356000D3711 /* NoteBookCell */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B35E9286D0375000D3711 /* NoteBookTableViewCell.swift */,
+			);
+			path = NoteBookCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +249,9 @@
 				3F2B35D5286C7B83000D3711 /* UserData.swift in Sources */,
 				3F2B35D7286C7BE6000D3711 /* NetworkUserManager.swift in Sources */,
 				3F2B35DB286C8563000D3711 /* UserDataRealm.swift in Sources */,
+				3F2B35EA286D0375000D3711 /* NoteBookTableViewCell.swift in Sources */,
 				3F2B35B3286C4135000D3711 /* AppDelegate.swift in Sources */,
-				3F2B35E7286CE65B000D3711 /* Users.swift in Sources */,
+				3F2B35E7286CE65B000D3711 /* User.swift in Sources */,
 				3F2B35E5286CE540000D3711 /* NetworkUsersManager.swift in Sources */,
 				3F2B35CD286C43BF000D3711 /* NoteBookTableViewController.swift in Sources */,
 				3F2B35D3286C54C4000D3711 /* DetailViewController.swift in Sources */,
@@ -244,6 +259,7 @@
 				3F2B35E3286C85D6000D3711 /* RealmManager.swift in Sources */,
 				3F2B35B5286C4135000D3711 /* SceneDelegate.swift in Sources */,
 				3F2B35D9286C81B0000D3711 /* NetworkDataFetch.swift in Sources */,
+				3FDE5E5D286DB5FD00E0BA67 /* GetUserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
